@@ -1,8 +1,8 @@
 //import logo from './logo.svg';
 import './App.css';
-import Card from './components/Card.js'
-import Cards from './components/Cards.js'
-import SearchBar from './components/SearchBar.js'
+import Card from './components/Card'
+import Cards from './components/Cards'
+import SearchBar from './components/SearchBar'
 import characters, { Rick } from './data.js'
 
 function App() {

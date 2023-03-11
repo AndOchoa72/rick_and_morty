@@ -1,4 +1,4 @@
-import Card from './Card.js';
+import Card from './Card';
 
 export default function Cards(props) {
    const { characters } = props;
