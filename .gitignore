@@ -2,15 +2,14 @@
 
 # dependencies
 node_modules/
-/.pnp
+.pnp/
 .pnp.js
 pnpm-lock.yaml
 
 # testing
-/coverage
+coverage/
 
 # production
-/build
 build/
 dist/
 bundle.js
