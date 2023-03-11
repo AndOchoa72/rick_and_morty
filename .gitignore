@@ -12,6 +12,7 @@ pnpm-lock.yaml
 # production
 /build
 bundle.js
+*bundle.js
 
 # misc
 .DS_Store
