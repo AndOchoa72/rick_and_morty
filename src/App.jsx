@@ -12,6 +12,7 @@ function App() {
             display: 'flex'
             }}>
         <Card
+          key={Rick.key}
           name={Rick.name}
           species={Rick.species}
           gender={Rick.gender}

@@ -3,10 +3,6 @@ module.exports = {
     entry: [
       './src/index.js'
     ],
-    output: {
-        path: __dirname + '/dist',
-        filename: 'bundle.js'
-      },
     module: {
         rules: [
           {
@@ -25,5 +21,9 @@ module.exports = {
             use: ['style-loader', 'css-loader']
           }
         ]
-    }    
+    },
+    output: {
+      filename: 'bundle.js',
+      path: __dirname + '/dist'
+    }
   }

@@ -7,7 +7,7 @@ export default function Cards(props) {
       ...aChar,
       onClose:() => window.alert('Emulamos que se cierra la card')
       }));
-   return <div  style={{
+   return <div style={{
          display: 'flex',
          border: '4px solid lime',
          borderRadius: 10
